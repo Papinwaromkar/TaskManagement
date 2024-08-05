@@ -3,9 +3,9 @@
     import Layout from "../+layout.svelte";
 </script>
 <Layout>
-<nav  class="bg-white border-gray-200 dark:bg-gray-900"  >
+<nav  class="bg-white border-gray-200 dark:bg-gray-900 top-0"  >
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="https://www.robotspace.in/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://framerusercontent.com/images/sonK02g1HhQpYMD96kBANE5hEYY.png?scale-down-to=512" class="h-8 bg-black" alt="">   
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -24,7 +24,11 @@
 </Layout>
 
 <main>
-    <h1 >Welcome to Task Manager</h1>
+    <div class="flex h-screen">
+        <div class="m-auto"><p class=" text-gray-900 text-center text-6xl dark:text-white">Welcome to your personal <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Task Manager</span></p></div>
+        
+    </div>
+    
     
 </main>
 <Footer/>
