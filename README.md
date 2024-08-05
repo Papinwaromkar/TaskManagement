@@ -63,14 +63,20 @@ npx directus start
 
 after completing installation you will be provided with "Admin" user to login to directus.
 Addtionally for this project ,
-1. I created 'task' Collection with  following fields:
+- I created 'task' Collection with  following fields:
  
  title:string*,description:textarea*,status:dropdown(new,inprogress,blocked,completed)*,due_date:date*
  
-2. I created 'taskmanagment_customer' role which has app access and 'read','write','update' and 'delete' permission for loged user on 'task collection'.
+- I created 'taskmanagment_customer' role which has app access and 'read','write','update' and 'delete' permission for loged user on 'task collection'.
 
 Every time new user registers to TaskManagment app ,admin has to verify the user and assign the role as "taskmanagment_customer" if not registered user will not be able to login.
 
 Note :
-1. All the configuration for directus is present in '.env' file(check the repository )
-2. Directus should be up and runing in order to taskmanagment app to work.
+- All the configuration for directus is present in '.env' file(check the repository ).
+- Directus should be up and runing in order to taskmanagment app to work.
+
+
+## Additional referencess
+- https://svelte.dev/docs/introduction
+- https://flowbite.com/docs/getting-started/introduction/
+- https://docs.directus.io/ 
