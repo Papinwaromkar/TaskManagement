@@ -36,6 +36,7 @@ Login : async ({ cookies, request, url }) => {
 	const email = data.get('email');
 	const password = data.get('password');
 	const redirectedFrom = url.searchParams.get('redirectedFrom');
+	console.log(redirectedFrom)
 	try {
 		let tokens = await loginUser(request,email,password);
 		// save cookies

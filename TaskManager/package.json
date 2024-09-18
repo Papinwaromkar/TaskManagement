@@ -33,6 +33,7 @@
 		"flowbite": "^2.4.1",
 		"flowbite-svelte": "^0.46.15",
 		"jsonwebtoken": "^9.0.2",
-		"tailwind-merge": "^2.4.0"
+		"tailwind-merge": "^2.4.0",
+		"taskmanager": "file:"
 	}
 }

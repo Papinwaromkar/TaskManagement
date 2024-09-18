@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "svelte-search": "^2.1.0"
+  }
+}
